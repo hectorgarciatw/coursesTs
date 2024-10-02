@@ -1,11 +1,11 @@
-type CoursePart = {
+interface CoursePart {
     name: string;
     exerciseCount: number;
-};
+}
 
-type ContentProps = {
+interface ContentProps {
     courseParts: CoursePart[];
-};
+}
 
 const Content = ({ courseParts }: ContentProps) => {
     return (

@@ -1,6 +1,6 @@
-type HeaderProps = {
+interface HeaderProps {
     courseName: string;
-};
+}
 
 const Header = ({ courseName }: HeaderProps) => {
     return <h1>{courseName}</h1>;
